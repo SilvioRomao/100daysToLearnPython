@@ -8,5 +8,4 @@ Num_People = int(input("How many people to split the bill? "))
 result = bill * (1 + tip / 100) / Num_People
 
 # Print the value to pay
-
 print(f"Each person should pay: €{result:.2f}")
